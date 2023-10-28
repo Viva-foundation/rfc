@@ -1,4 +1,9 @@
 {
+  "name": "@viva-foundation/rfc",
+  "version": "0.0.1",
+  "description": "Viva RFCs",
+  "author": "Viva Foundation",
+  "license": "MIT",
   "scripts": {
     "docs:dev": "vitepress dev",
     "docs:build": "vitepress build",
