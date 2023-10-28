@@ -1,22 +1,21 @@
-import { defineConfig } from 'vitepress'
+import { withMermaid } from "vitepress-plugin-mermaid";
 
 // https://vitepress.dev/reference/site-config
-export default defineConfig({
-  title: "Viva foundation technical documentation",
+export default withMermaid({
+  title: "Viva RFCs",
   description: "Technical documentation",
   themeConfig: {
     // https://vitepress.dev/reference/default-theme-config
     nav: [
       { text: 'Home', link: '/' },
-      { text: 'Examples', link: '/markdown-examples' }
+      { text: 'Projects', link: '/projects/' }
     ],
 
     sidebar: [
       {
-        text: 'Examples',
+        text: 'Projects',
         items: [
-          { text: 'Markdown Examples', link: '/markdown-examples' },
-          { text: 'Runtime API Examples', link: '/api-examples' }
+          { text: 'Full structure', link: '/projects/' },
         ]
       }
     ],

@@ -3,23 +3,22 @@
 layout: home
 
 hero:
-  name: "Viva foundation technical documentation"
-  text: "Technical documentation"
-  tagline: My great project tagline
+  name: "Viva project"
+  text: "Development RFCs" 
   actions:
     - theme: brand
-      text: Markdown Examples
-      link: /markdown-examples
+      text: Project structure
+      link: /projects/index
     - theme: alt
-      text: API Examples
-      link: /api-examples
+      text: Team
+      link: https://github.com/orgs/Viva-foundation/people
 
 features:
-  - title: Feature A
-    details: Lorem ipsum dolor sit amet, consectetur adipiscing elit
-  - title: Feature B
-    details: Lorem ipsum dolor sit amet, consectetur adipiscing elit
-  - title: Feature C
-    details: Lorem ipsum dolor sit amet, consectetur adipiscing elit
+  - title: About Viva
+    details: Charitable Foundation helps Armenia and Artsakh. Equipment of hospitals, assistance with operations and rehabilitation. VIVA - doctors and volunteers of Armenia
+  - title: Our Goals
+    details: To build free and open source software for charity funds and non-profit organizations in Armenia.
+  - title: Software volunteering
+    details: This software development is a volunteering project. We are looking for volunteers to join our team.
 ---
 
